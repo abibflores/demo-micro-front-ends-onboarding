@@ -4,7 +4,9 @@
   "description": "iniciaremos un proyecto en Nexts Js para construir un onboarding con la finalidad de insertarlo en una app como un micro front end",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev -p 3005"
+    "dev": "next dev -p 3005",
+    "build": "next build",
+    "export": "npm run build && next export"
   },
   "repository": {
     "type": "git",
