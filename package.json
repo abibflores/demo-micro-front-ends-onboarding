@@ -1,0 +1,28 @@
+{
+  "name": "demo-micro-front-ends-onboarding",
+  "version": "1.0.0",
+  "description": "iniciaremos un proyecto en Nexts Js para construir un onboarding con la finalidad de insertarlo en una app como un micro front end",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3005"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abibflores/demo-micro-front-ends-onboarding.git"
+  },
+  "keywords": [],
+  "author": "abibflores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abibflores/demo-micro-front-ends-onboarding/issues"
+  },
+  "homepage": "https://github.com/abibflores/demo-micro-front-ends-onboarding#readme",
+  "dependencies": {
+    "grommet": "^2.24.0",
+    "grommet-icons": "^4.7.0",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  }
+}
