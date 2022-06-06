@@ -23,6 +23,7 @@ const Onboarding = ({ userId }) => {
                     <Box direction="row" gap="medium">
                         <Button type="submit" primary label="Submit" />
                         <Button type="reset" label="Reset" />
+                        <a href="/dashboard" target="_parent">Ir al dashboard</a>
                     </Box>
                 </Form>
             </div>
@@ -33,7 +34,7 @@ const Onboarding = ({ userId }) => {
 export const getServerSideProps = async (context) => {
 
     const { query, params } = context;
-    
+
     return {
         props: { userId: query.id || "abib flores" }
     };
